@@ -15,5 +15,12 @@ namespace CSharp_StackAndQueue
             Console.WriteLine("My Queue after enqueue");
             myQueue.printLikedList();
         }
+
+        public void dequeue()
+        {
+            myQueue.deleteLast();
+            Console.WriteLine("My Queue after dequeue");
+            myQueue.printLikedList();
+        }
     }
 }

@@ -17,6 +17,8 @@
             queue.enqueue(node4);   
             queue.enqueue(node5);
 
+            queue.dequeue();
+
         }
     }
 }
