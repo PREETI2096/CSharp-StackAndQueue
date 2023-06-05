@@ -11,8 +11,12 @@
             Node<int> node4 = new Node<int>(20);
             Node<int> node5 = new Node<int>(50);
             Stack stack = new Stack();
+            stack.push(node1);
+            stack.push(node2);  
+            stack.push(node3);
             stack.push(node4);
             stack.push(node5);
+            stack.pop();
         }
     }
 }
