@@ -10,13 +10,13 @@
             Node<int> node3 = new Node<int>(30);
             Node<int> node4 = new Node<int>(20);
             Node<int> node5 = new Node<int>(50);
-            Stack stack = new Stack();
-            stack.push(node1);
-            stack.push(node2);  
-            stack.push(node3);
-            stack.push(node4);
-            stack.push(node5);
-            stack.pop();
+            Queue queue = new Queue();
+            queue.enqueue(node1);
+            queue.enqueue(node2);   
+            queue.enqueue(node3);
+            queue.enqueue(node4);   
+            queue.enqueue(node5);
+
         }
     }
 }
